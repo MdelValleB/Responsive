@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <form action="./busqueda.html" method="get" autocomplete="off">
+            <div>
+                <label for="miNombre">Nombre:</label>
+                <input type="text" name="nombre" id="miNombre" value="">
+            </div>
+            <div>
+                <label for="miEmail">Email:</label>
+                <input type="email" name="email" id="miEmail" value="">
+            </div>
+            <div>
+                <label for="miPass">Clave:</label>
+                <input type="password" name="pass" id="miPass" value="">
+            </div>
+            <div>
+                <label for="pregunta">¿Asistió a clases?</label>
+                <input type="radio" name="asistencia" id="pregunta" value="si">Sí
+                <input type="radio" name="asistencia" id="pregunta" value="no">No
+            </div>
+            <div>
+                <label for="hobbies">¿Hobbies?
+                <input type="checkbox" name="hobbies" id="hobbies" value="musica">Música</label>
+                <input type="checkbox" name="hobbies" id="hobbies" value="cine">Cine
+            </div>
+            <div>
+                <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <select name="pais" id="paises">
+                    <option value="br">Brasil</option>
+                    <option value="ar">Argentina</option>
+                    <option value="ve">Venezuela</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Resetear</button>
+                <button type="button">Atrás</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
